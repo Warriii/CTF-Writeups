@@ -744,7 +744,7 @@ Suppose we have `T()` as the transformation algorithm which produces any random 
 
 For visualisation, imagine
 
-`a = 0000000000000000000000000....00bde2312fba98643...8724783212`
+`a = 0000000000000000000000000....00bde2312fba98643...8724783212`\n
 `b = ddcafe5628dbec40178acb312....ff000000000000000...0000000000`
 
 Due to the 'independent' nature of each bit, we have `T(a^b) = T(a) ^ T(b)`.
