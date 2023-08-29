@@ -782,8 +782,8 @@ bz3  = [z3.BitVec(f'b{i}', 1) for i in range(624*32)]        # [b0, b1, b2, ....
 ```
 
 then add in the constraints that we've found thus far, being:
-- 1. `key[i]` (as a byte array) can only be one of a few values that we've discovered using xor with fixed key length on the ciphertext
-- 2. Each `k[i]` (as a bit array) comes from the xor chain of specific unknown variables in `b[x0], b[x1], b[x2]` etc., and each of these `b[x0]` may also be used in determining other `k[j]`s.
+- `key[i]` (as a byte array) can only be one of a few values that we've discovered using xor with fixed key length on the ciphertext
+- Each `k[i]` (as a bit array) comes from the xor chain of specific unknown variables in `b[x0], b[x1], b[x2]` etc., and each of these `b[x0]` may also be used in determining other `k[j]`s.
 
 Fortunately with this despite having `624*32 + 7347*8` unknown bits to solve, z3 is able to deduce the set of `b[0], b[1], ..., b[624*32]` and recover the state `random` was before `key = getrandbits(klen*8)` was called.
 
