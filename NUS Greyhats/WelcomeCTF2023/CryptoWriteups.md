@@ -2,7 +2,7 @@
 
 hi hi am Crypto CTF hobbist Warri
 
-Recently I participated with my team Youtiaos in NUS Greyhats Welcome CTF 2023. 
+Recently I participated with my team Youtiaos in NUS Greyhats Welcome CTF 2023. \n
 
 We'd previously participated in 2023 GreyCTF Quals and Finals, and much like the past two events the Welcome CTF was quite engaging and fun. While I wasn't able to solve most of the Crypto challs at the time, after communicating with the challenge creators I've come up with the following writeups for all eight crypto challs.
 
@@ -665,6 +665,7 @@ print(d[-1])
 # The flag: greyhats{n3V3R_Us3_0n3_t1m3_P4D_m0r3_7h4n_0nc3}
 ```
 ### XOR with fixed length key | 1 Solve 500 Points
+---
 
 #### chall.py
 ```py
