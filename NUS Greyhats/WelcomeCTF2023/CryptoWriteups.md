@@ -3,9 +3,10 @@
 hi hi am Crypto CTF hobbist Warri
 
 Recently I participated with my team Youtiaos in NUS Greyhats Welcome CTF 2023. 
+
 We'd previously participated in 2023 GreyCTF Quals and Finals, and much like the past two events the Welcome CTF was quite engaging and fun. While I wasn't able to solve most of the Crypto challs at the time, after communicating with the challenge creators I've come up with the following writeups for all eight crypto challs.
 
-This set of writeups include my own explanations and reasoning as to why the solves script work, as they are, as well as me dumping what I know of the encryption algorithms featured in the ctfs, primarily `RSA`, `DLP`, `XOR`, and `Linear Transformations` (on Mersenne-Twister). I try to explain it as best as I can, namely gearing for nubs like me who often struggle when reading author solve scripts due to appearances of weird syntaxes such as say, sage's `quotient_ring()`, `resultant()`, `small_roots()` (what do they even meannnnnn ;-; ) or perhaps scripts that feel like an RE nightmare on its own which we are usually left with after a typical CTF.
+This set of writeups include my own explanations and reasoning as to why the solves script work, as they are, as well as me dumping what I know of the encryption algorithms featured in the ctfs, primarily `RSA`, `DLP`, `XOR`, and `Linear Transformations` (on Mersenne-Twister). I try to explain it as best as I can, namely gearing for nubs like me who often struggle when reading author solve scripts due to appearances of weird syntaxes such as say, sage's `quotient_ring()`, `resultant()`, `small_roots()` or perhaps scripts that feel like an RE nightmare on its own which we are usually left with after a typical CTF.
 
 ## RSA Challs
 
