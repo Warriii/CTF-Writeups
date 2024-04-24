@@ -292,5 +292,3 @@ b'flag: grey{mix_column_is_important_in_AES_ExB3Hf9q9I3m}'
 [*] Closed connection to challs.nusgreyhats.org port 35100
 """
 ```
-
-Onto the Crypto challenges that I was not able to solve by the end of the CTF, but managed to upsolve for this writeup.
