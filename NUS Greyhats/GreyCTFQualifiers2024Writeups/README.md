@@ -18,7 +18,7 @@ standard buffer overflow ret2win with stack misalignment
 payload crafting using...`c/cpp strftime()`?!
 
 ---
-### Crypto (Solved)
+### Crypto
 #### Filter Ciphertext (82 Solves, 100 Pts)
 Using a secret python trick to trick an AES decryption oracle
 #### Filter Plaintext (39 Solves, 481 Pts)
