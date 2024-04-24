@@ -28,12 +28,15 @@ My first blood in this ctf! Exploiting poorly implemented AES encryption.
 
 ---
 ### Rev
-#### Phaser-JS (, 453 Pts)
+#### Phaser-JS (40 Solves, 453 Pts)
 does online obfuscated JS make for a good rev?
-#### Bee's Password (, 810 Pts)
+*EXPECT WRITEUP SOON*
+#### Bee's Password (24 Solves, 810 Pts)
 speeding up slow python code!
+*EXPECT WRITEUP SOON*
 #### Mazeware (2 Solves, 1000 Pts, 🩸)
 fun challenge reminiscient of flareon, 5 hours spent and each second was worth it :)
+*EXPECT WRITEUP SOON*
 
 ---
 ### Misc
@@ -51,11 +54,15 @@ Do survey get flag, no unfortunately this challenge was not important enough to 
 ---
 ## Crypto Challs - Unsolved 
 Apart for writeups for the challenges that I had solved, this repo also includes writeups to ALL cryptography challenges in the CTF, including these 4 that I wasn't able to solve unfortunately ;-;
-### PRG ()
+### PRG (11 Solves, 964 Pts)
 Linear transformation and an introduction to matrix rank and linear algebra!
-### IPFE ()
+*UPSOLVED! EXPECT WRITEUP SOON*
+### IPFE (4 Solves, 997 Pts)
 Did you know that RSA LSB Oracle applies to some cases of discrete log?
-### Coding ()
+*UPSOLVED! EXPECT WRITEUP SOON*
+### Coding (3 Solves, 999 Pts)
 McEliece but you get to choose the error correction algorithm
-### Curve ()
+*UPSOLVED! EXPECT WRITEUP SOON*
+### Curve (1 Solve, 1000 Pts) (Maple is insane crypto player fr)
 Using tate-pairings to...
+*UPSOLVING...*
