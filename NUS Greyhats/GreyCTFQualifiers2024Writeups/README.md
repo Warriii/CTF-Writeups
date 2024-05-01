@@ -56,13 +56,10 @@ Do survey get flag, no unfortunately this challenge was not important enough to 
 Apart for writeups for the challenges that I had solved, this repo also includes writeups to ALL cryptography challenges in the CTF, including these 4 that I wasn't able to solve unfortunately ;-;
 ### PRG (11 Solves, 964 Pts)
 Linear transformation and an introduction to matrix rank and linear algebra!
-*UPSOLVED! EXPECT WRITEUP SOON*
 ### IPFE (4 Solves, 997 Pts)
 Did you know that RSA LSB Oracle applies to some cases of discrete log?
-*UPSOLVED! EXPECT WRITEUP SOON*
 ### Coding (3 Solves, 999 Pts)
 McEliece but you get to choose the error correction algorithm
+### Curve (1 Solve, 1000 Pts)
+Using tate-pairings to solve Decisional Diffie Hellman
 *UPSOLVED! EXPECT WRITEUP SOON*
-### Curve (1 Solve, 1000 Pts) (Maple is insane crypto player fr)
-Using tate-pairings to...
-*UPSOLVING...*
