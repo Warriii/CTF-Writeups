@@ -366,6 +366,7 @@ And a portion of `this.hihihaha` is printed once `this.score == this.ggwave`, as
 
 Since we know `this.ggwave` is constant at `10000000` and `this.score` starts at `0`, we just need to simulate this to get the flag!
 
+`solve.py`
 ```py
 from functools import reduce
 from tqdm import trange
