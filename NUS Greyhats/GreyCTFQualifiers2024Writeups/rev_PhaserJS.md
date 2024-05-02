@@ -287,7 +287,7 @@ Once all of these variables have been updated we observe `this.hihihaha` being m
 ```js
         ...
         let R = this.hihihaha.reduce((S, k) => (S << 8) + BigInt(k), 0),
-	    ...
+	...
 ```
 `R = this.hihihaha.reduce((S, k) => (S << 8) + BigInt(k), 0)` calls `reduce()`, which functions similar to Python's own `functools.reduce()` function. `reduce()` is called with 2 parameters. The first is a function, which we see here in `(S, k) => (S << 8) + BigInt(k)`, and then the second parameter, `0`, serves as the starting value for `S`. `k` denotes each element in `this.hihihaha`. Thus, what this does is,
 
@@ -299,8 +299,9 @@ for k in hihihaha:
 R = S
 ```
 
+Moving on, we notice the javascript code performing the following;
 ```js
-        ...
+          ...
           V = BigInt(
             '2933342412243178360246913963653176924656287769470170577218737'
           ),
@@ -314,7 +315,7 @@ R = S
         }
         ...
 ```
-It then sets two big integers `V` and `u`, then it performs the equivalent of `R**65537 % V*u`. This is very reminiscient of RSA encryption and we can easily replicate this with `pow(R, 65537, V*u)`.
+It sets two big integers `V` and `u`, then it performs the equivalent of `R**65537 % V*u`. This is very reminiscient of RSA encryption and we can easily replicate this with `pow(R, 65537, V*u)`.
 
 ```js
         ...
@@ -322,7 +323,6 @@ It then sets two big integers `V` and `u`, then it performs the equivalent of `R
           this.hihihaha[this.hihihaha.length - 1 - k] = Number(O & 255)
           O = O >> 8
         }
-        
         ...
 ```
 We then see it take the value `O` i.e. `R**65537 % V*u` and then expresses it back into `this.hihihaha`. It is evident that this is a standard base-256 implementation.
@@ -344,7 +344,7 @@ We then see it take the value `O` i.e. `R**65537 % V*u` and then expresses it ba
         ...
 ```
 
-Lastly, it performs some swaps and xoring. So in each iteration,
+Lastly, it performs some swaps and xoring. In summary, in each iteration,
 ```
 this.score += 1
 this.hihihaha gets RSA encrypted
@@ -352,7 +352,7 @@ this.hihihaha gets swapped
 this.hihihaha gets xored
 ```
 
-And a portion of `this.hihihaha` is printed once `this.score == this.ggwave`
+And a portion of `this.hihihaha` is printed once `this.score == this.ggwave`, as we see below;
 
 ```js
         ...
