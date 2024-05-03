@@ -29,11 +29,9 @@ My first blood in this ctf! Exploiting poorly implemented AES encryption.
 ---
 ### Rev
 #### Phaser-JS (40 Solves, 453 Pts)
-does online obfuscated JS make for a good rev?
-*EXPECT WRITEUP SOON*
+Game Reversing! ...sorta.
 #### Bee's Password (24 Solves, 810 Pts)
 speeding up slow python code!
-*EXPECT WRITEUP SOON*
 #### Mazeware (2 Solves, 1000 Pts, 🩸)
 fun challenge reminiscient of flareon, 5 hours spent and each second was worth it :)
 *EXPECT WRITEUP SOON*
