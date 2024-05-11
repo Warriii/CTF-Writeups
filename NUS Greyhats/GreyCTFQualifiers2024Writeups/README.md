@@ -33,8 +33,7 @@ Game Reversing! ...sorta.
 #### Bee's Password (24 Solves, 810 Pts)
 speeding up slow python code!
 #### Mazeware (2 Solves, 1000 Pts, 🩸)
-fun challenge reminiscient of flareon, 5 hours spent and each second was worth it :)
-*EXPECT WRITEUP SOON*
+Really fun and cool RE challenge. So cool that it warrants its own special folder WITH its own distribution folder and idb
 
 ---
 ### Misc
