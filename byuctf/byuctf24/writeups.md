@@ -9,7 +9,7 @@ Overall the challenges were quite fun, especially for a begineer cryptography pl
 - [Do Math!](#do-math-198-solves-100-pts)
 - [Times](#times-154-solves-122-pts)
 - [Austen Supremacy](#austen-supremacy-76-solves-400-pts)
-- [Give Up (Partial)](#give-up-54-solves-451-pts)
+- [Give Up](#give-up-54-solves-451-pts)
 - [Cookie Cutter](#cookie-cutter-40-solves-447-pts)
 
 [Rev](#rev)
