@@ -1,4 +1,4 @@
-UIUCTF is an annual capture-the-flag competition hosted by SIGPwny, the cybersecurity club at the University of Illinois Urbana-Champaign (UIUC). This year I had the opportunity to participate in it under team `World Wide Flags`. It was a decent break from grinding through and enjoying the recently released Elden Ring DLC, and we managed to score `28th` on the global leaderboard. *(we scored higher than strong teams like idek, emu exploit and maple bacon! Totally not because we happened to have insane OSINT peeps to full clear that category)*
+UIUCTF is an annual capture-the-flag competition hosted by SIGPwny, the cybersecurity club at the University of Illinois Urbana-Champaign (UIUC). This year I had the opportunity to participate in it under team `World Wide Flags`. It was a decent break from grinding through and enjoying the recently released Elden Ring DLC, and we managed to score `28th` on the global leaderboard.
 
 ![alt text](Images/wwf.png)
 
