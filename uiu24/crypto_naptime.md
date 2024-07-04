@@ -153,7 +153,7 @@ a8  0   0   ...             0   1
 -c  0   0   0   0   0   0   0   0
 ```
 
-Given the vector `u = (0, v)` (where v is the 8 0/1 values we'd discussed earlier, eg. if `v = {1,1,0,0,1,0,1,0}` then `u = {0,1,1,0,0,1,0,1,0}`), when we perform `u*M` (where `M` is our lattice), we'd get the resultant vector `(0, v)`. My mathematical notation is definitely wrong but I hope you all can at least understand what I mean.
+Given the vector `u = (v,1)` (where v is the 8 0/1 values we'd discussed earlier, eg. if `v = {1,1,0,0,1,0,1,0}` then `u = {1,1,0,0,1,0,1,0,1}`), when we perform `u*M` (where `M` is our lattice), we'd get the resultant vector `(0, v)`. My mathematical notation is definitely wrong but I hope you all can at least understand what I mean.
 
 Since this resultant vector could be argued as "really small" (in magnitude), chances are it would show up when we apply our lattice reduction algorithm! This allows us to recover `v`, and so we repeat this process for each `c` in `ct` to recover the plaintext.
 
