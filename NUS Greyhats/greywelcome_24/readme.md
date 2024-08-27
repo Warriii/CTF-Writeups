@@ -5,6 +5,7 @@ hi hi am Crypto CTF hobbyist Warri
 Recently I participated in NUS Greyhats Welcome CTF 2024. A friend `elijah5399`asked if I could play in his team `G04T3DP30PL3`, after which we managed to get `1st` with a total score of `35493` points, myself having acquired `16130`.
 
 Throughout the 48 hours we managed to solve 46 out of the 50 challenges.
+
 ![alt text](images/challenges.png)
 
 Overall the CTF was quite engaging and fun. In addition, as compared to last year I was able to solve all of the crypto challenges! ^_^
