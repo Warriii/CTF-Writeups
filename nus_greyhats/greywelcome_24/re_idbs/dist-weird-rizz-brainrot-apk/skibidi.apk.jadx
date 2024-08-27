@@ -1,0 +1,49 @@
+{
+  "projectVersion": 1,
+  "files": [
+    "skibidi.apk"
+  ],
+  "treeExpansions": [
+    [
+      "com",
+      "Source code",
+      "skibidi.apk"
+    ],
+    [
+      "greyhats.skibidi.toilet",
+      "com",
+      "Source code",
+      "skibidi.apk"
+    ]
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": []
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "com.greyhats.skibidi.toilet.MainActivity",
+      "subPath": "java",
+      "caret": 1476,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.greyhats.skibidi.toilet.Rizz",
+      "subPath": "java",
+      "caret": 822,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  ],
+  "activeTab": 0,
+  "cacheDir": "skibidi.apk.cache",
+  "enableLiveReload": false,
+  "searchHistory": []
+}
