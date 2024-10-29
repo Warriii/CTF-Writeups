@@ -1,4 +1,4 @@
-I was invited to play in this CTF with my friends under `Youtiaos`. It happened on a weekday and we decided to play for fun, and we managed to get `2nd` place!
+On late October I was invited to play in this CTF with my friends under `Youtiaos`. It happened on a weekday and we decided to play for fun, and we managed to get `2nd` place!
 
 ![alt text](images/scoreboard.png)
 
