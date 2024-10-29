@@ -10,6 +10,8 @@ As the resident Cryptographer I've solved most of the Cryptography challenges, a
 
 Admittedly the CTF was a slight let down for me, as I was hoping for Cryptography challenges that dealt with the intricacies of cryptographic principles and protocols, or those that features known attacks exploiting the inherent weaknesses or poor implementation of such protocols. Instead the challenges were more on the guessy end, with some (i believe to be?) unsolvable unless hints were used. Nonetheless, I was told that the Reverse Engineering and Pwn categories were interesting!
 
+## W3LC0M3
+
 ![alt text](images/welcome.png)
 
 Staring at the ciphertext `uYorl fa g:EpnX{5JU7H_T33_B6N1N1}N6` for a while it becomes apparent that `uYorl fa g:` is reminiscient of `Your flag: `. I noticed its just shuffling of 4 bytes, thus a quick adhoc script gets us the flag.
@@ -23,11 +25,15 @@ for i in range(0, len(flag), 4):
 ```
 `Your flag: EnXp{JU57_TH3_B361NN1N6}`
 
+## DC
+
 ![alt text](images/DC.png)
 
 The description is a riddle whose answer is `joke`. Plugging it into a vigenere cipher decrypts the flag.
 
 `EnXp{j0k35_4nd_r1ddl35}`
+
+## Happy Euler
 
 ![alt text](images/happyeuler.png)
 
@@ -48,6 +54,8 @@ print(m.to_bytes(64, "big").lstrip(b"\x00"))
 `EnXp{C4rm1ch43l_func710n_15_u53fu1}`
 
 The flag implies that the Carmichael Lambda function is used. But in order to compute the Carmichael Lambda you need to first know the prime factorisation of `N`! And at this point you might as well perform standard RSA decryption. :P
+
+## Fool Me Not
 
 ![alt text](images/foolmenot.png)
 
