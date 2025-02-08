@@ -81,7 +81,7 @@ ENC()
     c4      c3      c2      c1      c0
 ```
 
-with $p_0, p_1, ..., p_4$ as the plaintext (flag) blocks and $c_0, c_1, ..., c_4$ as the ciphertext blocks. $a_0, ..., a_4$ represents the oracle output that we have access to. $X$ here denotes the xor function. A key characteristic of the xor function is that if $a \^ b == c$, then $c \^ b == a$.
+with $p_0, p_1, ..., p_4$ as the plaintext (flag) blocks and $c_0, c_1, ..., c_4$ as the ciphertext blocks. $a_0, ..., a_4$ represents the oracle output that we have access to. $X$ here denotes the xor function. A key characteristic of the xor function is that if $a \wedge b == c$, then $c \wedge b == a$.
 
 In letting $f_0, f_1, ..., f_4$ be the output of the AES_ECB() function, we use the aforementioned characteristic to get a series of xor equations of which we can derive the middle flag blocks:
 
