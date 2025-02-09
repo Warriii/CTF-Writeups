@@ -237,15 +237,15 @@ def getAuthCode(x):
     ...
 ```
 
-Conceptually, the security relies on the difficulty of the [Elliptic Curve Discrete Logarithm Problem (ECDLP)](https://link.springer.com/referenceworkentry/10.1007/978-1-4419-5906-5_246) - given points $G$, $d*G$ on a given Elliptic Curve, it is hard to recover $d$. Without being able to recover $d$, in theory this means we can never be able to spoof our own $d*G$.
+Conceptually, the security relies on the difficulty of the [Elliptic Curve Discrete Logarithm Problem (ECDLP)](https://link.springer.com/referenceworkentry/10.1007/978-1-4419-5906-5_246) - given points $G$, $d * G$ on a given Elliptic Curve, it is hard to recover $d$. Without being able to recover $d$, in theory this means we can never be able to spoof our own $d * G$.
 
 The latter statement, however, is untrue. This system has a gaping hole in that the `+` (Curve Point Addition) and `*` (Curve Point Scalar Multiplication) operations on an elliptic curve is distributive. Or rather, $a * (B + C) = a * B + a * C$ with $a$ a scalar and $B, C$ as points.
 
 Thus, we fool the oracle by obtaining the authentication tokens of two points $P, Q$ such that $P + Q = G$. We do this by setting $P$ as any point on the curve and computing $Q = G - P$.
 
-After we get $d*Q$ and $d*P$, we can then do $d*Q + d*P = d * (P+Q) = d*G$, allowing us to pose as an admin and obtain the flag.
+After we get $d * Q$ and $d * P$, we can then do $d * Q + d * P = d * (P+Q) = d * G$, allowing us to pose as an admin and obtain the flag.
 
-It should be noted that due to the symmetry of curve points about the x-axis, it is possible that $d*Q - d*P$ gives us the correct x coordinate of $d*G$ instead. This should not be an issue however as we can attempt to spoof our token multiple times.
+It should be noted that due to the symmetry of curve points about the x-axis, it is possible that $d * Q - d * P$ gives us the correct x coordinate of $d * G$ instead. This should not be an issue however as we can attempt to spoof our token multiple times.
 
 ### solve.py
 ```py
