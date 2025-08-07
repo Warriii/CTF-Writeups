@@ -117,7 +117,7 @@ The problem however is the 60 seconds time limit. For a sheer $2^{64}$ possible 
 
 I took way too long trying to clone the repository and running `make` on the binary to no avail. Until a friend chimed in and reminded me that I could have just downloaded the compiled binary from the github site under the Releases tab.
 
-![alt text](images/image-1.png)
+![alt text](Images/image-1.png)
 
 Thanks Toady.
 
@@ -314,4 +314,5 @@ Recovered secret key 0x9f622597ec52299aeab5ed25a5e903910a2244a121314186818eff650
 [*] Closed connection to nc.deadsec.quest port 31450
 DEAD{Th4nk5_f0R_r3G15TeRinG_wItH_U5_enJ0y_Y0Ur_BpN_897259d8e1bc2c65}
 Total Time Taken: 14.58 seconds
+
 ```
