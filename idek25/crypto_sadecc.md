@@ -4,7 +4,7 @@ This .md file contains the writeups for sadecc and its revenge challenge. Both o
 
 I'll be covering the cheese for sadecc and will not touch too much on the actual challenge itself. For the challenge, see Mono's input in sadecc revenge! I've also provided my own proof of concept using slightly different polynomials from Mono. -warri
 
-![alt text](Images\image-2.png)
+![alt text](Images/image-2.png)
 
 `chall.py`
 ```py
@@ -177,12 +177,12 @@ break
 ```
 
 We can send `[]` into `ast.literal_eval()` to get an empty list as `ans`. The `zip(Ps, ans)` logic will terminate immediately as `ans` is empty, thus Correct! and the flag are printed onto console.
-![alt text](Images\sadcheese.png)
+![alt text](Images/sadcheese.png)
 
 ---
 Onto the revenge challenge:
 
-![alt text](Images\image-4.png)
+![alt text](Images/image-4.png)
 
 `revenge.py`
 ```py
@@ -569,4 +569,5 @@ hh = f3_num.resultant(f2, u2).change_ring(Zmod(n)).univariate_polynomial()
 f1 = f1.change_ring(Zmod(n)).univariate_polynomial()
 u1_ = n - polygcd(hh, f1)[0]
 print(u1_ == uu1)
+
 ```
