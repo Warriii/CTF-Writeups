@@ -293,7 +293,7 @@ This allows us to derive $N_n = q^n + 1-\sum_{i=1}^{2g} \alpha_i^n$, i.e. the nu
 
 On the other hand, the order of the curve Jacobian is given by
 
-$\#J(C)(\mathbb{F}_q) = \prod_{i}^{2g}(1-\alpha_i)$ (i have no idea where or how this is derived from, but just take it as fact for now)
+$\text{\#}J(C)(\mathbb{F}_q) = \prod_{i}^{2g}(1-\alpha_i)$ (i have no idea where or how this is derived from, but just take it as fact for now)
 
 which surprisingly enough equates to $P(1)$.
 
@@ -301,7 +301,7 @@ Now here's the fun part. Remember how I said the jacobian order is equivalent to
 
 Notably, when the genus is 1, there are only two values of $\alpha$, say $\alpha_0$ and $\alpha_1$. Because $|\alpha_i|=\sqrt{q}$, we may show:
 
-$N_1 = q + 1 - \sum\alpha_i = \prod\alpha_i + 1 - \sum\alpha_i = \prod_{i=1}^{2} (1 - \alpha_i) = \#J(C)(\mathbb{F}_q)$
+$N_1 = q + 1 - \sum\alpha_i = \prod\alpha_i + 1 - \sum\alpha_i = \prod_{i=1}^{2} (1 - \alpha_i) = \text{\#}J(C)(\mathbb{F}_q)$
 
 of which this relation holds if and only if there are two $\alpha$ values, i.e. genus 1!
 
@@ -381,5 +381,6 @@ Congratz!
 ```
 
 where the second line is the time taken to compute the order.
+
 
 It is...interesting, that the order computation step varies in time taken.
