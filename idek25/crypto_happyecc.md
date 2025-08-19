@@ -1,4 +1,4 @@
-![alt text](Images\image-3.png)
+![alt text](Images/image-3.png)
 
 `chall.py`
 ```py
@@ -194,7 +194,7 @@ FileNotFoundError: [Errno 2] No such file or directory: 'flag.txt'
 
 ---
 
-![alt text](Images\image-5.png)
+![alt text](Images/image-5.png)
 
 I don't exactly have the original source code on me, but as far as I am aware it basically addresses the send 0 cheese.
 
@@ -384,3 +384,4 @@ where the second line is the time taken to compute the order.
 
 
 It is...interesting, that the order computation step varies in time taken.
+
