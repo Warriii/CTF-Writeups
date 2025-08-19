@@ -1,4 +1,4 @@
-![alt text](Images\image.png)
+![alt text](Images/image.png)
 
 `chall.py`
 ```py
@@ -207,4 +207,5 @@ R.close()
 🎉 Reunion! You have found your feline friend! 🐾
 🏆 Victory! The treasure lies within: idek{Catch_and_cat_sound_really_similar_haha}
 [*] Closed connection to catch.chal.idek.team port 1337
+
 ```
