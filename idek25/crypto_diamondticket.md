@@ -1,4 +1,4 @@
-![alt text](Images\image-1.png)
+![alt text](Images/image-1.png)
 
 `chall.py`
 ```py
@@ -208,4 +208,5 @@ print(f'{diamond_ticket = }')
 And voila, we have our flag,
 ```
 diamond_ticket = b'idek{tks_f0r_ur_t1ck3t_xD}'
+
 ```
