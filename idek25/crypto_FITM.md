@@ -1,7 +1,7 @@
 
 This writeup was written by Mono from slightsmile! A few edits were made here and there by warri.
 
-![alt text](Images\image-6.png)
+![alt text](Images/image-6.png)
 
 `chall.py`
 ```py
@@ -263,7 +263,7 @@ for ooohooohaaaahaaah in range(16):
             io.interactive()
 ```
 
-![alt text](Images\image0.jpg)
+![alt text](Images/image0.jpg)
 
 Running the code, we get:
 ```
